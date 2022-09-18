@@ -1,0 +1,3 @@
+<div>
+    <button *ngFor="let entry of Categories | keyvalue" (click)="filterByCategory(entry.value)">{{entry.key}}</button>
+</div>
